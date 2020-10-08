@@ -1,6 +1,6 @@
 'use strict';
 
-const todos = {};
+const todos = [];
 
 const todo1 = {
 	text: 'wash the dishes',
@@ -16,3 +16,10 @@ todos[1] = todo1;
 todos[2] = todo2;
 
 console.log(todos);
+
+const todosB = [];
+
+todosB.push(todo1);
+todosB.push(todo2);
+
+console.log(todosB);
