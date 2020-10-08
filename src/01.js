@@ -23,3 +23,6 @@ todosB.push(todo1);
 todosB.push(todo2);
 
 console.log(todosB);
+
+todosB.pop();
+console.log(todosB);

@@ -42,6 +42,26 @@ array.push({ random1 });
 
 array.push({ random2 });
 
+// or
+
+array.push(({ random1 },{ random2 })
+
 //return
 [{ random1 }, { random2 }];
+```
+
+And if you want to delete an the last element you can use pop array method:
+
+```js
+const array = [];
+
+//add with push method
+array.push(({ random1 },{ random2 })
+
+//return
+[{ random1 }, { random2 }];
+
+array.pop()
+//return
+[{ random1 }];
 ```
