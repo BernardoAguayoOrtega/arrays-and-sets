@@ -27,3 +27,23 @@ const names = ['name1','name2','name3',...]
 // use includes method
 console.log(names.includes('name4')) // return false
 ```
+
+** but what happen with more complex data? (objects) **
+for the more complex data you cannot use includes and those cases you can use 'some' method.
+
+### some method
+
+The some method takes a callback function with its own parameters and iterate over each element of the array.
+
+example
+
+```js
+// array of objects
+const persons = [
+	{ name: 'random1', age: 5 },
+	{ name: 'random2', age: 4 },
+	{ name: 'random3', age: 56 },
+	{ name: 'random4', age: 11 },
+	{ name: 'random5', age: 90 },
+];
+```

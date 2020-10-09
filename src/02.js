@@ -6,4 +6,6 @@ console.log(result(82) === -1 && true);
 
 console.log('brake');
 
-console.log(temperatures.includes(50));
+const names = ['name1', 'name2', 'name3', 'name4'];
+
+console.log(names.includes('name5'));
