@@ -46,4 +46,9 @@ const persons = [
 	{ name: 'random4', age: 11 },
 	{ name: 'random5', age: 90 },
 ];
+
+// use some method
+persons.some((element) => element.age === 90); // return true or false
 ```
+
+with some method at least one element need to match with the condition, once have a match the iteration stop and returns true or false
