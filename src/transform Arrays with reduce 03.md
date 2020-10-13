@@ -1,4 +1,4 @@
-As depelores sometimes when we work with arrays, we don't want to iterate or do some operation in every element inside the array, fortunately we have a method called reduce that allow us transform elements of array in something useful.
+As developers sometimes when we work with arrays, we don't want to iterate or do some operation in every element inside the array, fortunately we have a method called reduce that allow us transform elements of array in something useful.
 
 Reduce method
 
@@ -27,6 +27,7 @@ const menuItems = [
   { item: "Baked Italian Chicken Sub", price: 12 },
   { item: "Pan Seared Ribeye", price: 31 }
 
-];```
+];
 
 menuItems.reduce()
+```
