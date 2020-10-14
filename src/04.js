@@ -1,11 +1,19 @@
 const numbers = [1, 2, 3, 4, 5, 6];
 
 // reduce the numbers
-const numbersX2 = numbers.reduce((acc, num) => {
+const doubleNumbers = numbers.reduce((acc, num) => {
 	acc.push(num * 2);
 	return acc;
 }, []);
 
-console.log(numbers)
+// numbers greater than 3
+const graterThenTree = numbers.reduce((acc, num) => {
+	num > 3 && acc.push(num * 2);
+	return acc;
+}, []);
 
-console.log(numbersX2);
+console.log(numbers);
+
+console.log(doubleNumbers);
+
+console.log(graterThenTree);
