@@ -1,0 +1,1 @@
+ Reduce is a mother of array methods, with reduce you can do map or filter

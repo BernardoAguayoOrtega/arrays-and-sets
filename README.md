@@ -11,3 +11,7 @@
 
 - transform Arrays with reduce :red_circle: 
 > As developers sometimes when we work with arrays, we don't want to iterate or do some operation in every element inside the array, fortunately we have a method called reduce that allow us transform elements of array in something useful.
+
+- Avoid Mutations with Array Spreed
+> The push Method mutates the original array. We can fix this by using a non-mutating array method such as concat.
+> Alternatively, we can use the array spread operator(...) to clone the previous array.
