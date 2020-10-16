@@ -15,3 +15,6 @@
 - Avoid Mutations with Array Spreed
 > The push Method mutates the original array. We can fix this by using a non-mutating array method such as concat.
 > Alternatively, we can use the array spread operator(...) to clone the previous array.
+
+- Mold Arrays with the Spread Operator
+we can merge multiple arrays into a new array using the spread operator **...** The order in which the arrays are entered is retained.
